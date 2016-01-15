@@ -45,7 +45,10 @@
 - (IBAction)logoutButtonClick:(UIBarButtonItem *)sender {
     //注销用户
     AppDelegate *delegate = [UIApplication sharedApplication].delegate;
-    [delegate xmpplogOut];
+    [[WCXMPPTool sharedWCXMPPTool] xmpplogOut];
+    [WCAccount shareAccount].login = NO;
+    [[WCAccount shareAccount] saveAccount];
+    
     //切换导航控制器到注册
     [UIStoryboard showInitialVCWithName:@"Login"];
 }

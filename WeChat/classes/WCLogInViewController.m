@@ -42,8 +42,7 @@
     //2.2调用AppDelegate的xmmpplogin的方法
     //用block传值，自己创建的block，强引用的时候，改成若引用，系统穿件的不用管
     __weak typeof(self) selfVc = self;
-    AppDelegate *appDelegate = [UIApplication sharedApplication].delegate;
-    [appDelegate xmppLogin:^(XMPPResultType result) {
+       [[WCXMPPTool sharedWCXMPPTool] xmppLogin:^(XMPPResultType result) {
         [selfVc handleResult:result];
         NSLog(@"%s",__func__);
         

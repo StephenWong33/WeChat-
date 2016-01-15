@@ -172,6 +172,7 @@
 		DB9604251C48FFD400FF43A3 /* UIStoryboard+WF.m in Sources */ = {isa = PBXBuildFile; fileRef = DB96041D1C48FFD400FF43A3 /* UIStoryboard+WF.m */; };
 		DB9604261C48FFD400FF43A3 /* UITextField+WF.m in Sources */ = {isa = PBXBuildFile; fileRef = DB96041F1C48FFD400FF43A3 /* UITextField+WF.m */; };
 		DB9604271C48FFD400FF43A3 /* UIView+WF.m in Sources */ = {isa = PBXBuildFile; fileRef = DB9604211C48FFD400FF43A3 /* UIView+WF.m */; };
+		DB96042B1C490AD100FF43A3 /* WCXMPPTool.m in Sources */ = {isa = PBXBuildFile; fileRef = DB96042A1C490AD100FF43A3 /* WCXMPPTool.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -531,6 +532,9 @@
 		DB96041F1C48FFD400FF43A3 /* UITextField+WF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+WF.m"; sourceTree = "<group>"; };
 		DB9604201C48FFD400FF43A3 /* UIView+WF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WF.h"; sourceTree = "<group>"; };
 		DB9604211C48FFD400FF43A3 /* UIView+WF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WF.m"; sourceTree = "<group>"; };
+		DB9604291C490AD100FF43A3 /* WCXMPPTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCXMPPTool.h; sourceTree = "<group>"; };
+		DB96042A1C490AD100FF43A3 /* WCXMPPTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCXMPPTool.m; sourceTree = "<group>"; };
+		DB96042C1C490AF500FF43A3 /* Singleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Singleton.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1541,6 +1545,7 @@
 		DB9603F91C47E28400FF43A3 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				DB9604281C490AA000FF43A3 /* Tool */,
 				DB458F941C477198007EAE8E /* Main.storyboard */,
 				DB96040B1C48D0F300FF43A3 /* Moudlel */,
 			);
@@ -1614,6 +1619,16 @@
 			);
 			name = Category;
 			path = ../Category;
+			sourceTree = "<group>";
+		};
+		DB9604281C490AA000FF43A3 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				DB96042C1C490AF500FF43A3 /* Singleton.h */,
+				DB9604291C490AD100FF43A3 /* WCXMPPTool.h */,
+				DB96042A1C490AD100FF43A3 /* WCXMPPTool.m */,
+			);
+			name = Tool;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1863,6 +1878,7 @@
 				DB4591831C477A0A007EAE8E /* XMPPRoomOccupantHybridMemoryStorageObject.m in Sources */,
 				DB4591881C477A0A007EAE8E /* XMPPMUC.m in Sources */,
 				DB4591961C477A0A007EAE8E /* XMPPvCardTempTel.m in Sources */,
+				DB96042B1C490AD100FF43A3 /* WCXMPPTool.m in Sources */,
 				DB4591B81C477A0A007EAE8E /* XMPPStreamManagement.m in Sources */,
 				DB45904A1C4778AF007EAE8E /* XMPPStream.m in Sources */,
 				DB4591B01C477A0A007EAE8E /* XMPPvCardAvatarModule.m in Sources */,
