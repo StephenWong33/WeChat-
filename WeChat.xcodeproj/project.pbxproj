@@ -159,6 +159,12 @@
 		DB4591C41C477A0A007EAE8E /* XMPPMessage+XEP_0308.m in Sources */ = {isa = PBXBuildFile; fileRef = DB45915D1C477A09007EAE8E /* XMPPMessage+XEP_0308.m */; };
 		DB4591C51C477A0A007EAE8E /* XMPPMessage+XEP_0333.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4591601C477A09007EAE8E /* XMPPMessage+XEP_0333.m */; };
 		DB4591C61C477A0A007EAE8E /* NSXMLElement+XEP_0335.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4591631C477A09007EAE8E /* NSXMLElement+XEP_0335.m */; };
+		DB9603FE1C47E36200FF43A3 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB9603FD1C47E36200FF43A3 /* Login.storyboard */; };
+		DB9604011C48934700FF43A3 /* WCLogInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB9604001C48934700FF43A3 /* WCLogInViewController.m */; };
+		DB9604081C48B2AB00FF43A3 /* MBProgressHUD+HM.m in Sources */ = {isa = PBXBuildFile; fileRef = DB9604041C48B2AB00FF43A3 /* MBProgressHUD+HM.m */; };
+		DB9604091C48B2AB00FF43A3 /* MBProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DB9604051C48B2AB00FF43A3 /* MBProgressHUD.bundle */; };
+		DB96040A1C48B2AB00FF43A3 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = DB9604071C48B2AB00FF43A3 /* MBProgressHUD.m */; };
+		DB96040E1C48D11600FF43A3 /* WCAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = DB96040D1C48D11600FF43A3 /* WCAccount.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -181,8 +187,8 @@
 /* Begin PBXFileReference section */
 		DB458F881C477198007EAE8E /* WeChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB458F8C1C477198007EAE8E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		DB458F8E1C477198007EAE8E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		DB458F8F1C477198007EAE8E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DB458F8E1C477198007EAE8E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../AppDelegate.h; sourceTree = "<group>"; };
+		DB458F8F1C477198007EAE8E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../AppDelegate.m; sourceTree = "<group>"; };
 		DB458F911C477198007EAE8E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		DB458F921C477198007EAE8E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		DB458F951C477198007EAE8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -493,6 +499,16 @@
 		DB4591631C477A09007EAE8E /* NSXMLElement+XEP_0335.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSXMLElement+XEP_0335.m"; sourceTree = "<group>"; };
 		DB4591C71C477A44007EAE8E /* XMPPFramework.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMPPFramework.h; sourceTree = "<group>"; };
 		DB4591C91C477D6E007EAE8E /* WeChat-PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WeChat-PrefixHeader.pch"; sourceTree = "<group>"; };
+		DB9603FD1C47E36200FF43A3 /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		DB9603FF1C48934700FF43A3 /* WCLogInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCLogInViewController.h; sourceTree = "<group>"; };
+		DB9604001C48934700FF43A3 /* WCLogInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCLogInViewController.m; sourceTree = "<group>"; };
+		DB9604031C48B2AB00FF43A3 /* MBProgressHUD+HM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+HM.h"; sourceTree = "<group>"; };
+		DB9604041C48B2AB00FF43A3 /* MBProgressHUD+HM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+HM.m"; sourceTree = "<group>"; };
+		DB9604051C48B2AB00FF43A3 /* MBProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MBProgressHUD.bundle; sourceTree = "<group>"; };
+		DB9604061C48B2AB00FF43A3 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		DB9604071C48B2AB00FF43A3 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		DB96040C1C48D11600FF43A3 /* WCAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCAccount.h; sourceTree = "<group>"; };
+		DB96040D1C48D11600FF43A3 /* WCAccount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCAccount.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -549,8 +565,6 @@
 			isa = PBXGroup;
 			children = (
 				DB458FC01C477250007EAE8E /* classes */,
-				DB458F8E1C477198007EAE8E /* AppDelegate.h */,
-				DB458F8F1C477198007EAE8E /* AppDelegate.m */,
 				DB458F911C477198007EAE8E /* ViewController.h */,
 				DB458F921C477198007EAE8E /* ViewController.m */,
 				DB458F941C477198007EAE8E /* Main.storyboard */,
@@ -592,6 +606,9 @@
 		DB458FC01C477250007EAE8E /* classes */ = {
 			isa = PBXGroup;
 			children = (
+				DB9603FA1C47E29700FF43A3 /* Login */,
+				DB9603F91C47E28400FF43A3 /* Main */,
+				DB4591CA1C47C848007EAE8E /* Other */,
 				DB458FC11C477250007EAE8E /* lib */,
 			);
 			path = classes;
@@ -600,6 +617,7 @@
 		DB458FC11C477250007EAE8E /* lib */ = {
 			isa = PBXGroup;
 			children = (
+				DB9604021C48B2AB00FF43A3 /* MBProgessHUD */,
 				DB458FC21C477250007EAE8E /* XMPP */,
 			);
 			path = lib;
@@ -1488,6 +1506,54 @@
 			path = "XEP-0335";
 			sourceTree = "<group>";
 		};
+		DB4591CA1C47C848007EAE8E /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				DB458F8E1C477198007EAE8E /* AppDelegate.h */,
+				DB458F8F1C477198007EAE8E /* AppDelegate.m */,
+			);
+			name = Other;
+			sourceTree = "<group>";
+		};
+		DB9603F91C47E28400FF43A3 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				DB96040B1C48D0F300FF43A3 /* Moudlel */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		DB9603FA1C47E29700FF43A3 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				DB9603FF1C48934700FF43A3 /* WCLogInViewController.h */,
+				DB9604001C48934700FF43A3 /* WCLogInViewController.m */,
+				DB9603FD1C47E36200FF43A3 /* Login.storyboard */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		DB9604021C48B2AB00FF43A3 /* MBProgessHUD */ = {
+			isa = PBXGroup;
+			children = (
+				DB9604031C48B2AB00FF43A3 /* MBProgressHUD+HM.h */,
+				DB9604041C48B2AB00FF43A3 /* MBProgressHUD+HM.m */,
+				DB9604051C48B2AB00FF43A3 /* MBProgressHUD.bundle */,
+				DB9604061C48B2AB00FF43A3 /* MBProgressHUD.h */,
+				DB9604071C48B2AB00FF43A3 /* MBProgressHUD.m */,
+			);
+			path = MBProgessHUD;
+			sourceTree = "<group>";
+		};
+		DB96040B1C48D0F300FF43A3 /* Moudlel */ = {
+			isa = PBXGroup;
+			children = (
+				DB96040C1C48D11600FF43A3 /* WCAccount.h */,
+				DB96040D1C48D11600FF43A3 /* WCAccount.m */,
+			);
+			name = Moudlel;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1550,6 +1616,7 @@
 		DB458F801C477198007EAE8E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = WC;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = stephen;
 				TargetAttributes = {
@@ -1593,9 +1660,11 @@
 			files = (
 				DB458FFD1C4777EB007EAE8E /* build-libidn.sh in Resources */,
 				DB458F9B1C477198007EAE8E /* LaunchScreen.storyboard in Resources */,
+				DB9603FE1C47E36200FF43A3 /* Login.storyboard in Resources */,
 				DB458F981C477198007EAE8E /* Assets.xcassets in Resources */,
 				DB458FE01C477335007EAE8E /* README.txt in Resources */,
 				DB458F961C477198007EAE8E /* Main.storyboard in Resources */,
+				DB9604091C48B2AB00FF43A3 /* MBProgressHUD.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1635,6 +1704,7 @@
 				DB45919F1C477A0A007EAE8E /* NSDate+XMPPDateTimeProfiles.m in Sources */,
 				DB4591971C477A0A007EAE8E /* NSXMLElement+XEP_0059.m in Sources */,
 				DB4591781C477A0A007EAE8E /* XMPPJabberRPCModule.m in Sources */,
+				DB96040E1C48D11600FF43A3 /* WCAccount.m in Sources */,
 				DB45919D1C477A0A007EAE8E /* XMPPMessage+XEP_0066.m in Sources */,
 				DB45919A1C477A0A007EAE8E /* XMPPPubSub.m in Sources */,
 				DB4591651C477A09007EAE8E /* XMPPCoreDataStorage.m in Sources */,
@@ -1654,8 +1724,10 @@
 				DB45918F1C477A0A007EAE8E /* XMPPvCardTemp.m in Sources */,
 				DB4590261C4778A4007EAE8E /* XMPPSCRAMSHA1Authentication.m in Sources */,
 				DB4590241C4778A4007EAE8E /* XMPPDigestMD5Authentication.m in Sources */,
+				DB9604081C48B2AB00FF43A3 /* MBProgressHUD+HM.m in Sources */,
 				DB4591B61C477A0A007EAE8E /* XMPPStreamManagementMemoryStorage.m in Sources */,
 				DB4591A71C477A0A007EAE8E /* XMPPCapsCoreDataStorageObject.m in Sources */,
+				DB96040A1C48B2AB00FF43A3 /* MBProgressHUD.m in Sources */,
 				DB4591BB1C477A0A007EAE8E /* XMPPAutoTime.m in Sources */,
 				DB4591931C477A0A007EAE8E /* XMPPvCardTempEmail.m in Sources */,
 				DB45919C1C477A0A007EAE8E /* XMPPIQ+XEP_0066.m in Sources */,
@@ -1757,6 +1829,7 @@
 				DB4591A21C477A0A007EAE8E /* XMPPSoftwareVersion.m in Sources */,
 				DB4591B21C477A0A007EAE8E /* XMPPPresence+XEP_0172.m in Sources */,
 				DB4591A31C477A0A007EAE8E /* XMPPTransports.m in Sources */,
+				DB9604011C48934700FF43A3 /* WCLogInViewController.m in Sources */,
 				DB4591BA1C477A0A007EAE8E /* XMPPPing.m in Sources */,
 				DB4591AB1C477A0A007EAE8E /* XMPPMessageArchiving_Contact_CoreDataObject.m in Sources */,
 				DB4591C41C477A0A007EAE8E /* XMPPMessage+XEP_0308.m in Sources */,
@@ -1906,6 +1979,7 @@
 				GCC_PREFIX_HEADER = "WeChat/WeChat-PrefixHeader.pch";
 				HEADER_SEARCH_PATHS = /usr/include/libxml2;
 				INFOPLIST_FILE = WeChat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1925,6 +1999,7 @@
 				GCC_PREFIX_HEADER = "WeChat/WeChat-PrefixHeader.pch";
 				HEADER_SEARCH_PATHS = /usr/include/libxml2;
 				INFOPLIST_FILE = WeChat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -2003,6 +2078,7 @@
 				DB458FB71C477199007EAE8E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DB458FB81C477199007EAE8E /* Build configuration list for PBXNativeTarget "WeChatTests" */ = {
 			isa = XCConfigurationList;
@@ -2011,6 +2087,7 @@
 				DB458FBA1C477199007EAE8E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DB458FBB1C477199007EAE8E /* Build configuration list for PBXNativeTarget "WeChatUITests" */ = {
 			isa = XCConfigurationList;
@@ -2019,6 +2096,7 @@
 				DB458FBD1C477199007EAE8E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
