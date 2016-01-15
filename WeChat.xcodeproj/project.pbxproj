@@ -165,6 +165,13 @@
 		DB9604091C48B2AB00FF43A3 /* MBProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DB9604051C48B2AB00FF43A3 /* MBProgressHUD.bundle */; };
 		DB96040A1C48B2AB00FF43A3 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = DB9604071C48B2AB00FF43A3 /* MBProgressHUD.m */; };
 		DB96040E1C48D11600FF43A3 /* WCAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = DB96040D1C48D11600FF43A3 /* WCAccount.m */; };
+		DB9604131C48F08400FF43A3 /* WCMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB9604121C48F08400FF43A3 /* WCMeViewController.m */; };
+		DB9604221C48FFD400FF43A3 /* UIButton+WF.m in Sources */ = {isa = PBXBuildFile; fileRef = DB9604171C48FFD400FF43A3 /* UIButton+WF.m */; };
+		DB9604231C48FFD400FF43A3 /* UIImage+WF.m in Sources */ = {isa = PBXBuildFile; fileRef = DB9604191C48FFD400FF43A3 /* UIImage+WF.m */; };
+		DB9604241C48FFD400FF43A3 /* UIScreen+WF.m in Sources */ = {isa = PBXBuildFile; fileRef = DB96041B1C48FFD400FF43A3 /* UIScreen+WF.m */; };
+		DB9604251C48FFD400FF43A3 /* UIStoryboard+WF.m in Sources */ = {isa = PBXBuildFile; fileRef = DB96041D1C48FFD400FF43A3 /* UIStoryboard+WF.m */; };
+		DB9604261C48FFD400FF43A3 /* UITextField+WF.m in Sources */ = {isa = PBXBuildFile; fileRef = DB96041F1C48FFD400FF43A3 /* UITextField+WF.m */; };
+		DB9604271C48FFD400FF43A3 /* UIView+WF.m in Sources */ = {isa = PBXBuildFile; fileRef = DB9604211C48FFD400FF43A3 /* UIView+WF.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -509,6 +516,21 @@
 		DB9604071C48B2AB00FF43A3 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
 		DB96040C1C48D11600FF43A3 /* WCAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCAccount.h; sourceTree = "<group>"; };
 		DB96040D1C48D11600FF43A3 /* WCAccount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCAccount.m; sourceTree = "<group>"; };
+		DB9604111C48F08400FF43A3 /* WCMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCMeViewController.h; sourceTree = "<group>"; };
+		DB9604121C48F08400FF43A3 /* WCMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCMeViewController.m; sourceTree = "<group>"; };
+		DB9604151C48FFD400FF43A3 /* CategoryWF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryWF.h; sourceTree = "<group>"; };
+		DB9604161C48FFD400FF43A3 /* UIButton+WF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+WF.h"; sourceTree = "<group>"; };
+		DB9604171C48FFD400FF43A3 /* UIButton+WF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+WF.m"; sourceTree = "<group>"; };
+		DB9604181C48FFD400FF43A3 /* UIImage+WF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+WF.h"; sourceTree = "<group>"; };
+		DB9604191C48FFD400FF43A3 /* UIImage+WF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+WF.m"; sourceTree = "<group>"; };
+		DB96041A1C48FFD400FF43A3 /* UIScreen+WF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScreen+WF.h"; sourceTree = "<group>"; };
+		DB96041B1C48FFD400FF43A3 /* UIScreen+WF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScreen+WF.m"; sourceTree = "<group>"; };
+		DB96041C1C48FFD400FF43A3 /* UIStoryboard+WF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIStoryboard+WF.h"; sourceTree = "<group>"; };
+		DB96041D1C48FFD400FF43A3 /* UIStoryboard+WF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIStoryboard+WF.m"; sourceTree = "<group>"; };
+		DB96041E1C48FFD400FF43A3 /* UITextField+WF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+WF.h"; sourceTree = "<group>"; };
+		DB96041F1C48FFD400FF43A3 /* UITextField+WF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+WF.m"; sourceTree = "<group>"; };
+		DB9604201C48FFD400FF43A3 /* UIView+WF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WF.h"; sourceTree = "<group>"; };
+		DB9604211C48FFD400FF43A3 /* UIView+WF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WF.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -567,7 +589,6 @@
 				DB458FC01C477250007EAE8E /* classes */,
 				DB458F911C477198007EAE8E /* ViewController.h */,
 				DB458F921C477198007EAE8E /* ViewController.m */,
-				DB458F941C477198007EAE8E /* Main.storyboard */,
 				DB458F971C477198007EAE8E /* Assets.xcassets */,
 				DB458F991C477198007EAE8E /* LaunchScreen.storyboard */,
 				DB458F9C1C477198007EAE8E /* Info.plist */,
@@ -606,6 +627,7 @@
 		DB458FC01C477250007EAE8E /* classes */ = {
 			isa = PBXGroup;
 			children = (
+				DB96040F1C48F02600FF43A3 /* Profile */,
 				DB9603FA1C47E29700FF43A3 /* Login */,
 				DB9603F91C47E28400FF43A3 /* Main */,
 				DB4591CA1C47C848007EAE8E /* Other */,
@@ -617,6 +639,7 @@
 		DB458FC11C477250007EAE8E /* lib */ = {
 			isa = PBXGroup;
 			children = (
+				DB9604141C48FFD400FF43A3 /* Category */,
 				DB9604021C48B2AB00FF43A3 /* MBProgessHUD */,
 				DB458FC21C477250007EAE8E /* XMPP */,
 			);
@@ -1518,6 +1541,7 @@
 		DB9603F91C47E28400FF43A3 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				DB458F941C477198007EAE8E /* Main.storyboard */,
 				DB96040B1C48D0F300FF43A3 /* Moudlel */,
 			);
 			name = Main;
@@ -1552,6 +1576,44 @@
 				DB96040D1C48D11600FF43A3 /* WCAccount.m */,
 			);
 			name = Moudlel;
+			sourceTree = "<group>";
+		};
+		DB96040F1C48F02600FF43A3 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				DB9604101C48F03D00FF43A3 /* Controller */,
+			);
+			name = Profile;
+			sourceTree = "<group>";
+		};
+		DB9604101C48F03D00FF43A3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DB9604111C48F08400FF43A3 /* WCMeViewController.h */,
+				DB9604121C48F08400FF43A3 /* WCMeViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		DB9604141C48FFD400FF43A3 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				DB9604151C48FFD400FF43A3 /* CategoryWF.h */,
+				DB9604161C48FFD400FF43A3 /* UIButton+WF.h */,
+				DB9604171C48FFD400FF43A3 /* UIButton+WF.m */,
+				DB9604181C48FFD400FF43A3 /* UIImage+WF.h */,
+				DB9604191C48FFD400FF43A3 /* UIImage+WF.m */,
+				DB96041A1C48FFD400FF43A3 /* UIScreen+WF.h */,
+				DB96041B1C48FFD400FF43A3 /* UIScreen+WF.m */,
+				DB96041C1C48FFD400FF43A3 /* UIStoryboard+WF.h */,
+				DB96041D1C48FFD400FF43A3 /* UIStoryboard+WF.m */,
+				DB96041E1C48FFD400FF43A3 /* UITextField+WF.h */,
+				DB96041F1C48FFD400FF43A3 /* UITextField+WF.m */,
+				DB9604201C48FFD400FF43A3 /* UIView+WF.h */,
+				DB9604211C48FFD400FF43A3 /* UIView+WF.m */,
+			);
+			name = Category;
+			path = ../Category;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1729,6 +1791,7 @@
 				DB4591A71C477A0A007EAE8E /* XMPPCapsCoreDataStorageObject.m in Sources */,
 				DB96040A1C48B2AB00FF43A3 /* MBProgressHUD.m in Sources */,
 				DB4591BB1C477A0A007EAE8E /* XMPPAutoTime.m in Sources */,
+				DB9604241C48FFD400FF43A3 /* UIScreen+WF.m in Sources */,
 				DB4591931C477A0A007EAE8E /* XMPPvCardTempEmail.m in Sources */,
 				DB45919C1C477A0A007EAE8E /* XMPPIQ+XEP_0066.m in Sources */,
 				DB4591711C477A09007EAE8E /* XMPPResourceMemoryStorageObject.m in Sources */,
@@ -1744,6 +1807,7 @@
 				DB4591A61C477A0A007EAE8E /* XMPPCapabilitiesCoreDataStorage.m in Sources */,
 				DB45905C1C4778B9007EAE8E /* RFImageToDataTransformer.m in Sources */,
 				DB4590221C4778A4007EAE8E /* XMPPDeprecatedDigestAuthentication.m in Sources */,
+				DB9604231C48FFD400FF43A3 /* UIImage+WF.m in Sources */,
 				DB4590441C4778AF007EAE8E /* XMPPIQ.m in Sources */,
 				DB4591701C477A09007EAE8E /* XMPPUserCoreDataStorageObject.m in Sources */,
 				DB4591991C477A0A007EAE8E /* XMPPIQ+XEP_0060.m in Sources */,
@@ -1763,6 +1827,7 @@
 				DB4591951C477A0A007EAE8E /* XMPPvCardTempModule.m in Sources */,
 				DB4591861C477A0A007EAE8E /* XMPPRoomOccupantMemoryStorageObject.m in Sources */,
 				DB4591911C477A0A007EAE8E /* XMPPvCardTempAdrTypes.m in Sources */,
+				DB9604131C48F08400FF43A3 /* WCMeViewController.m in Sources */,
 				DB45916E1C477A09007EAE8E /* XMPPRoster.xcdatamodel in Sources */,
 				DB45905A1C4778B9007EAE8E /* DDList.m in Sources */,
 				DB458FF41C477384007EAE8E /* DDXMLElement.m in Sources */,
@@ -1780,6 +1845,7 @@
 				DB458FD81C477335007EAE8E /* DDAbstractDatabaseLogger.m in Sources */,
 				DB4591811C477A0A007EAE8E /* XMPPRoomHybridStorage.m in Sources */,
 				DB4591821C477A0A007EAE8E /* XMPPRoomMessageHybridCoreDataStorageObject.m in Sources */,
+				DB9604271C48FFD400FF43A3 /* UIView+WF.m in Sources */,
 				DB4590471C4778AF007EAE8E /* XMPPModule.m in Sources */,
 				DB45917C1C477A0A007EAE8E /* XMPPRoom.xcdatamodeld in Sources */,
 				DB4590481C4778AF007EAE8E /* XMPPParser.m in Sources */,
@@ -1806,6 +1872,7 @@
 				DB4591AA1C477A0A007EAE8E /* XMPPMessageArchiving.xcdatamodeld in Sources */,
 				DB4590281C4778A4007EAE8E /* XMPPXOAuth2Google.m in Sources */,
 				DB4591841C477A0A007EAE8E /* XMPPRoomMemoryStorage.m in Sources */,
+				DB9604251C48FFD400FF43A3 /* UIStoryboard+WF.m in Sources */,
 				DB4590491C4778AF007EAE8E /* XMPPPresence.m in Sources */,
 				DB4591B41C477A0A007EAE8E /* XMPPMessageDeliveryReceipts.m in Sources */,
 				DB458FDE1C477335007EAE8E /* DDDispatchQueueLogFormatter.m in Sources */,
@@ -1818,10 +1885,12 @@
 				DB4590291C4778A4007EAE8E /* NSData+XMPP.m in Sources */,
 				DB4591661C477A09007EAE8E /* XMPPFileTransfer.m in Sources */,
 				DB458F8D1C477198007EAE8E /* main.m in Sources */,
+				DB9604221C48FFD400FF43A3 /* UIButton+WF.m in Sources */,
 				DB4591A51C477A0A007EAE8E /* XMPPCapabilities.xcdatamodel in Sources */,
 				DB4591981C477A0A007EAE8E /* XMPPResultSet.m in Sources */,
 				DB4591A91C477A0A007EAE8E /* XMPPCapabilities.m in Sources */,
 				DB45917D1C477A0A007EAE8E /* XMPPRoomCoreDataStorage.m in Sources */,
+				DB9604261C48FFD400FF43A3 /* UITextField+WF.m in Sources */,
 				DB4591C61C477A0A007EAE8E /* NSXMLElement+XEP_0335.m in Sources */,
 				DB458FD91C477335007EAE8E /* DDASLLogger.m in Sources */,
 				DB45905F1C4778B9007EAE8E /* XMPPStringPrep.m in Sources */,
@@ -1876,6 +1945,7 @@
 				DB458F951C477198007EAE8E /* Base */,
 			);
 			name = Main.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		DB458F991C477198007EAE8E /* LaunchScreen.storyboard */ = {

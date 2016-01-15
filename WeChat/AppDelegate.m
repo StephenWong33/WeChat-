@@ -41,12 +41,12 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
 
     //判断是否登录
-//    if ([WCAccount shareAccount].isLogIn) {
-//        id vc = [[UIStoryboard storyboardWithName:@"Main" bundle:nil]instantiateInitialViewController];
-//        self.window.rootViewController = vc;
-//        
-//    }
-//    
+    if ([WCAccount shareAccount].isLogIn) {
+        id vc = [[UIStoryboard storyboardWithName:@"Main" bundle:nil]instantiateInitialViewController];
+        self.window.rootViewController = vc;
+        
+    }
+//
     return YES;
 }
 
@@ -81,6 +81,10 @@
         NSLog(@"发起链接成功");
     }
 }
+-(void)disconnectToHost
+{
+    [_xmppStream disconnect];
+}
 
 -(void)sendPwdToHost
 {
@@ -97,6 +101,11 @@
 {
     XMPPPresence *presence = [XMPPPresence presence];
     [_xmppStream sendElement:presence];
+}
+-(void)sendOffLine
+{
+    XMPPPresence *offLine = [XMPPPresence presenceWithType:@"unavailable"];
+    [_xmppStream sendElement:offLine];
 }
 
 #pragma mark XMPPStream的代理方法
@@ -145,6 +154,15 @@
     _resultBlock = resultBlock;
     //链接服务器
     [self connectToHost];
+    
+}
+#pragma mark 用户注销
+-(void)xmpplogOut
+{
+    //发送离线消息
+    [self sendOffLine];
+    //断开连接
+    [self disconnectToHost];
     
 }
 

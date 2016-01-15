@@ -59,7 +59,7 @@
         [MBProgressHUD hideHUD];
         if (result == XMPPResultTypeLogInSuccess) {
             NSLog(@"%s登陆成功",__FUNCTION__);
-            [self changToMain];
+            [UIStoryboard showInitialVCWithName:@"Main"];
             [WCAccount shareAccount].login = YES;
             [[WCAccount shareAccount ]saveAccount];
             
@@ -72,10 +72,5 @@
     
 }
 
--(void)changToMain
-{
-    //回到主线程更新UI
-         id vc = [[UIStoryboard storyboardWithName:@"Main" bundle:nil]instantiateInitialViewController];
-        [UIApplication sharedApplication].keyWindow.rootViewController = vc;
-}
+
 @end
