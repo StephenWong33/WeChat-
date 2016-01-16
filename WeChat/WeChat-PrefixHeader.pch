@@ -16,4 +16,5 @@
 #import "UIStoryboard+WF.h"
 #import "Singleton.h"
 #import "WCXMPPTool.h"
+#import "MBProgressHUD+HM.h"
 #endif /* WeChat_PrefixHeader_pch */

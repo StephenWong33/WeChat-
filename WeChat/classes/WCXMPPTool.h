@@ -10,6 +10,8 @@
 typedef enum {
     XMPPResultTypeLogInSuccess,//登陆成功
     XMPPResultTypeLogInFailure,//登录失败
+    XMPPResultTypeRegisterSuccess,//登陆成功
+    XMPPResultTypeRegisterFailure,//登录失败
 }XMPPResultType;
 /**
  *  与服务器交互的结果
@@ -20,7 +22,7 @@ typedef void(^XMPPResultBlock)(XMPPResultType) ;
 singleton_interface(WCXMPPTool);
 
 
-@property (strong, nonatomic) UIWindow *window;
+@property(nonatomic,assign,getter=isRegisterOperation)BOOL registerOperation;
 /**
  *  xmpp 用户登录
  */
@@ -30,5 +32,10 @@ singleton_interface(WCXMPPTool);
  *  注销用户
  */
 -(void)xmpplogOut;
+/**
+ *  用户注册
+ */
+
+-(void)xmppRegister:(XMPPResultBlock)resultBlock;
 
 @end

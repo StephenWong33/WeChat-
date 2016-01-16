@@ -35,12 +35,13 @@
 
     //2，登录服务器
     //2.1把用户名和密码保存到沙盒
-    [WCAccount shareAccount].user = self.userTextField.text;
+    [WCAccount shareAccount].loginUser = self.userTextField.text;
 
-    [WCAccount shareAccount].pwd = self.psdTextField.text;
+    [WCAccount shareAccount].loginPwd = self.psdTextField.text;
 
     //2.2调用AppDelegate的xmmpplogin的方法
     //用block传值，自己创建的block，强引用的时候，改成若引用，系统穿件的不用管
+    [WCXMPPTool sharedWCXMPPTool].registerOperation = NO;
     __weak typeof(self) selfVc = self;
        [[WCXMPPTool sharedWCXMPPTool] xmppLogin:^(XMPPResultType result) {
         [selfVc handleResult:result];

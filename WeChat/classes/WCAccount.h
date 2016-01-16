@@ -9,9 +9,20 @@
 #import <Foundation/Foundation.h>
 
 @interface WCAccount : NSObject
-@property(nonatomic,copy)NSString *user;
-@property(nonatomic,copy)NSString *pwd;
+/**
+ *  登录名和密码
+ */
+@property(nonatomic,copy)NSString *loginUser;
+@property(nonatomic,copy)NSString *loginPwd;
 @property(nonatomic,assign,getter=isLogIn)BOOL login;
+/**
+ *  注册名和密码
+ */
+@property(nonatomic,copy)NSString *registerUser;
+@property(nonatomic,copy)NSString *registerPwd;
+
+
+
 
 +(instancetype)shareAccount;
 -(void)saveAccount;

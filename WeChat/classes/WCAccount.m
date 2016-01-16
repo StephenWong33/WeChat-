@@ -7,9 +7,11 @@
 //
 
 #import "WCAccount.h"
-#define kUserKey @"user"
-#define kPwdKey @"pwd"
+#define kLoginUserKey @"loginUser"
+#define kLoginPwdKey @"loginPwd"
 #define kLogInrKey @"login"
+#define kRegisterUserKey @"registerUser"
+#define kRegisterPwdKey @"registerPwd"
 @implementation WCAccount
 
 /**
@@ -33,8 +35,8 @@
             account = [super allocWithZone:zone];
             NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
             
-            account.user = [defaults objectForKey:kUserKey];
-            account.pwd = [defaults objectForKey:kPwdKey];
+            account.loginUser = [defaults objectForKey:kLoginUserKey];
+            account.loginPwd = [defaults objectForKey:kLoginPwdKey];
             account.login = [defaults boolForKey:kLogInrKey];
             
         }
@@ -47,8 +49,8 @@
 -(void)saveAccount
 {
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
-    [defaults setObject:self.user forKey:kUserKey];
-    [defaults setObject:self.pwd forKey:kPwdKey];
+    [defaults setObject:self.loginUser forKey:kLoginUserKey];
+    [defaults setObject:self.loginPwd forKey:kLoginPwdKey];
     [defaults setBool:self.login forKey:kLogInrKey];
     [defaults synchronize];
 }

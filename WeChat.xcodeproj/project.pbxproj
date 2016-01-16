@@ -173,6 +173,7 @@
 		DB9604261C48FFD400FF43A3 /* UITextField+WF.m in Sources */ = {isa = PBXBuildFile; fileRef = DB96041F1C48FFD400FF43A3 /* UITextField+WF.m */; };
 		DB9604271C48FFD400FF43A3 /* UIView+WF.m in Sources */ = {isa = PBXBuildFile; fileRef = DB9604211C48FFD400FF43A3 /* UIView+WF.m */; };
 		DB96042B1C490AD100FF43A3 /* WCXMPPTool.m in Sources */ = {isa = PBXBuildFile; fileRef = DB96042A1C490AD100FF43A3 /* WCXMPPTool.m */; };
+		DB96046E1C49E26900FF43A3 /* WCRegisterController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB96046D1C49E26900FF43A3 /* WCRegisterController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -535,6 +536,8 @@
 		DB9604291C490AD100FF43A3 /* WCXMPPTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCXMPPTool.h; sourceTree = "<group>"; };
 		DB96042A1C490AD100FF43A3 /* WCXMPPTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCXMPPTool.m; sourceTree = "<group>"; };
 		DB96042C1C490AF500FF43A3 /* Singleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Singleton.h; sourceTree = "<group>"; };
+		DB96046C1C49E26900FF43A3 /* WCRegisterController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCRegisterController.h; sourceTree = "<group>"; };
+		DB96046D1C49E26900FF43A3 /* WCRegisterController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCRegisterController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1557,6 +1560,8 @@
 			children = (
 				DB9603FF1C48934700FF43A3 /* WCLogInViewController.h */,
 				DB9604001C48934700FF43A3 /* WCLogInViewController.m */,
+				DB96046C1C49E26900FF43A3 /* WCRegisterController.h */,
+				DB96046D1C49E26900FF43A3 /* WCRegisterController.m */,
 				DB9603FD1C47E36200FF43A3 /* Login.storyboard */,
 			);
 			name = Login;
@@ -1893,6 +1898,7 @@
 				DB4591B41C477A0A007EAE8E /* XMPPMessageDeliveryReceipts.m in Sources */,
 				DB458FDE1C477335007EAE8E /* DDDispatchQueueLogFormatter.m in Sources */,
 				DB45905E1C4778B9007EAE8E /* XMPPSRVResolver.m in Sources */,
+				DB96046E1C49E26900FF43A3 /* WCRegisterController.m in Sources */,
 				DB45916B1C477A09007EAE8E /* XMPPReconnect.m in Sources */,
 				DB4591C21C477A0A007EAE8E /* XMPPMessageCarbons.m in Sources */,
 				DB4591B31C477A0A007EAE8E /* XMPPMessage+XEP_0184.m in Sources */,
